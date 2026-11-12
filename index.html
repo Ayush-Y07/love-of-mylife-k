@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#160d16">
+  <title>A Letter For Kalyani ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient"></div>
+  <div id="petals" aria-hidden="true"></div>
+
+  <section class="welcome" id="welcome">
+    <div class="welcome-card">
+      <div class="seal">♥</div>
+      <p class="eyebrow">A LITTLE SOMETHING FOR YOU</p>
+      <h1>For you,<br><span>Kalyani</span></h1>
+      <p class="welcome-copy">Some words come straight from the heart.</p>
+      <button class="primary-btn" id="openLetter">Open my letter <span>♡</span></button>
+      <p class="tiny-note">Take your time. Read whenever you feel ready.</p>
+    </div>
+  </section>
+
+  <main class="page hidden" id="mainPage">
+    <header class="hero">
+      <p class="eyebrow">A LETTER FROM THE HEART</p>
+      <h1>Dear <span>K...</span> ❤️</h1>
+      <p class="hero-subtitle">A few words I wanted you to read.</p>
+      <div class="ornament">✦ ───── ♡ ───── ✦</div>
+    </header>
+
+    <section class="letter panel">
+      <p class="salutation">K... ❤️🥺</p>
+
+      <p>Mai tumse bahut pyar krta hoon kv kv toh aisa lagta hai ki tumse alag meri koi pehchalan hi nahi hai... Tum meri jindagi ka wo hisa bn chuki ho jiske bina sb kuch adhura sa lagta h</p>
+
+      <p class="highlight">You are my everything, K. ❤️</p>
+
+      <p>Meri Devi bhi tum ho, meri Queen bhi tum ho, my favourite person, my love of life... everything! 👑❤️</p>
+
+      <p>Aur tum pochti ho na "Ek photo mein aisa kya h jo itni der tak dekna h?"</p>
+
+      <p>To pta h tumhe... meri nazrein tum par aakar ruk si jaati hain. Tumhe dekhte hue waqt ka pta hi nhi chlta. Tumhari aankhon mein, tumhari muskurahat mai, tumhari har ek chiz Mai na jane kya mujhe dikhta h 🥹</p>
+
+      <p>Tum mein itni chamak hai ki agar meri aankhon ka noor bhi kbhi km ho jaye, tab bhi tumhari tasveer mere dil mein hamesha utni hi roshan rahegi. ✨</p>
+
+      <p class="playful-sorry">sorry K 😞 aaj k liye 👠🩴👠🩴👠👟👢</p>
+
+      <p>Tum sirf meri favourite nhi ho, tum meri zindagi ka best part ho. Tum wo khushi ho jise main kabhi khona nahi chahta.</p>
+
+      <p>I don't know how to explain how much you mean to me, but one thing I know for sure...</p>
+
+      <p class="final-line">It's you, K. Only you. Always you. ❤️<br><br>Love you so much, K. 🫶🏻🌍</p>
+    </section>
+
+    <section class="memories">
+      <div class="section-heading">
+        <p class="eyebrow">LITTLE MOMENTS</p>
+        <h2>My favourite memories <span>♡</span></h2>
+        <p>Some pictures deserve a little place of their own.</p>
+      </div>
+
+      <div class="gallery">
+        <button class="photo photo-tall" data-full="images/kalyani-saree.jpg" aria-label="View first memory">
+          <img src="images/kalyani-saree.jpg" alt="Kalyani in a pink saree" loading="lazy">
+          <span>So beautiful ✨</span>
+        </button>
+        <button class="photo photo-eye" data-full="images/eyes-memory.jpg" aria-label="View second memory">
+          <img src="images/eyes-memory.jpg" alt="A close-up memory" loading="lazy">
+          <span>Those eyes 🥹</span>
+        </button>
+        <button class="photo" data-full="images/kalyani-memory.jpg" aria-label="View third memory">
+          <img src="images/kalyani-memory.jpg" alt="A happy memory" loading="lazy">
+          <span>A lovely moment 🌸</span>
+        </button>
+        <button class="photo" data-full="images/our-memory.jpg" aria-label="View fourth memory">
+          <img src="images/our-memory.jpg" alt="A shared memory collage" loading="lazy">
+          <span>A little reminder ❤️</span>
+        </button>
+      </div>
+      <p class="gallery-note">Tap any picture to view it.</p>
+    </section>
+
+    <section class="closing panel">
+      <div class="closing-heart">♡</div>
+      <p class="eyebrow">ONE LAST THING</p>
+      <h2>I'm truly sorry, K.</h2>
+      <p>I can't change what happened today, but I can sincerely apologise, listen to you, and try to do better. You don't have to reply right away. Your feelings matter.</p>
+      <button class="primary-btn" id="sorryBtn">One last sorry, K <span>❤️</span></button>
+      <p class="response" id="response" aria-live="polite"></p>
+    </section>
+
+    <footer>Made with a sincere heart · For Kalyani ❤️</footer>
+  </main>
+
+  <div class="lightbox hidden" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer">
+    <button class="close-lightbox" id="closeLightbox" aria-label="Close photo">×</button>
+    <img id="lightboxImage" src="" alt="Selected memory">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
